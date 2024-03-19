@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(20, 122, 11);
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.blog{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.userInput{
+    border: 3px solid red;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+}
+.userInput input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 3px solid red;
+    color: rgb(20, 122, 11);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    transition: .3s;
+}
+button:active{
+    transform: scale(.98);
+}
+button:hover{
+    box-shadow:7px 7px 8px rgb(97, 95, 95) ;
+    transform: translateY(-2px);
+}
+.res{
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
