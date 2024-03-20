@@ -5,14 +5,14 @@ var array = [];
 
 
 function uUnshift() {
-    if (userEnter.value != '') {
+    if (userEnter.value) {
         array.unshift(userEnter.value);
         res.innerHTML = array
         userEnter.value = '';
     }
 };
 function uPush() {
-    if (userEnter.value != '') {
+    if (userEnter.value) {
         array.push(userEnter.value);
         res.innerHTML = array
         userEnter.value = '';
@@ -27,7 +27,7 @@ function uPop() {
     res.innerHTML = array
 };
 function uJoin() {
-    if (usJoin.value != '') {
+    if (usJoin.value) {
         var joinedArr = array.join(usJoin.value);
         res.innerHTML = joinedArr
         usJoin.value = '';
